@@ -9,9 +9,9 @@ namespace Tyuiu.BotterVV.Sprint5.Task0.V2.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CheckedExistsFile()
         {
-            string path = @"C:\Users\noph\source\repos\Tyuiu.BotterVV.Sprint5\Tyuiu.BotterVV.Sprint5.Task0.V2\bin\Debug";
+            string path = @"C:\Users\noph\source\repos\Tyuiu.BotterVV.Sprint5\Tyuiu.BotterVV.Sprint5.Task0.V2\bin\Debug\OutPutFileTask0.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
