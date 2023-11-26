@@ -11,7 +11,7 @@ namespace Tyuiu.BotterVV.Sprint5.Task5.V24.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"С:\DataSprint5\InPutDataFileTask5V24.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V24.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
